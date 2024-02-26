@@ -16,6 +16,11 @@
     color: #1abc9c;
     text-decoration: none;
 }
+.ms-contact input, .ms-contact textarea{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+}
 footer i{
     border: 1px solid #ffff;
     border-radius: 50%;
