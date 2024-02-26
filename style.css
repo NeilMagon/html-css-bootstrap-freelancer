@@ -12,3 +12,13 @@
     background-color: #fff;
     max-width: 3.125rem;
 }
+.ms-c-lightgreen{
+    color: #1abc9c;
+    text-decoration: none;
+}
+footer i{
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    padding: .625rem;
+    margin: .25rem;
+}
