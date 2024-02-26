@@ -15,15 +15,28 @@
     <!-- /FONT-AWESOME -->
 </head>
 <body>
-    <header class="ms-bg-darkblue text-white">
-        <div class="container py-3">
-            <div class="d-flex justify-content-between align-items-center">
-                <h4 class="fw-bold">START BOOTSTRAP</h4>   
-                <div>
-                    link link link
-                </div>
+    <header class="ms-bg-darkblue sticky-top">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand" href="#"><h4 class="fw-bold">START BOOTSTRAP</h4></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active"href="#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#contact-me">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav> 
     </header>
     <main>
         <section class="ms-bg-lightgreen text-center text-white">
@@ -37,7 +50,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="portfolio">
             <div class="container py-5">
                 <h2 class="text-center">PORTFOLIO</h2>
                 <div class="row gy-3">
@@ -62,7 +75,7 @@
                 </div>
             </div>
         </section>
-        <section class="ms-bg-lightgreen text-white">
+        <section class="ms-bg-lightgreen text-white" id="about">
             <div class="container py-5 px-5">
                 <h2 class="text-center ">ABOUT</h2>
                 <div class="row gy-5">
@@ -78,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="contact-me">
             <div class="container py-5 px-5">
                 <h2 class="text-center">CONTACT ME</h2>
                 <div>
